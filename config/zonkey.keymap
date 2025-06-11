@@ -195,10 +195,10 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp W         &kp E               &kp R      &kp T                              &kp Y        &kp U            &kp I      &kp O    &kp P
-&kp A                    &kp S         &kp D               &kp F      &kp G      &none        &kp UNDER  &kp H        &kp J            &kp K      &kp L    &kp AT
-&mt LEFT_CONTROL ESCAPE  &kp Z         &kp X               &kp C      &kp V      &kp B        &kp COLON  &kp N        &kp M            &kp COMMA  &kp DOT  &kp LANGUAGE_1
-&mt LEFT_SHIFT TAB       &kp LEFT_WIN  &mt LEFT_ALT SLASH  &kp SPACE  &mkp LCLK  &mkp RCLK               &lt 1 ENTER  &lt 2 BACKSPACE                                      &kp LANGUAGE_2
+&kp Q                    &kp W         &kp E               &kp R      &kp T                               &kp Y             &kp U             &kp I      &kp O    &kp P
+&kp A                    &kp S         &kp D               &kp F      &kp G      &kp LC(UP)    &kp UNDER  &kp H             &kp J             &kp K      &kp L    &kp AT
+&mt LEFT_CONTROL ESCAPE  &kp Z         &kp X               &kp C      &kp V      &kp B         &kp COLON  &kp N             &kp M             &kp COMMA  &kp DOT  &lt 1 ENTER
+&mt LEFT_SHIFT TAB       &kp LEFT_WIN  &mt LEFT_ALT SLASH  &kp SPACE  &mkp LCLK  &mkp RCLK                &lt 1 LANGUAGE_1  &lt 2 LANGUAGE_2                                   &lt 2 BACKSPACE
             >;
 
             sensor-bindings =
@@ -211,7 +211,7 @@
 &kp N1        &kp N2        &kp N3         &kp N4        &kp N5                                        &kp N6        &kp N7       &kp N8         &kp N9           &kp N0
 &kp LS(EXCL)  &kp LS(DQT)   &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &mkp MCLK        &kp LS(LPAR)  &kp LS(AMPS)  &kp LS(SQT)  &kp LS(TILDE)  &kp LG(INT_YEN)  &kp LS(PIPE)
 &trans        &kp LS(PLUS)  &kp MINUS      &kp LS(STAR)  &kp FSLH       &kp LS(EQUAL)    &kp SEMI      &kp LS(RPAR)  &kp LBKT     &kp RBKT       &kp LS(QMARK)    &trans
-&trans        &trans        &trans         &trans        &trans         &trans                         &trans        &kp DELETE                                                 &trans
+&trans        &trans        &trans         &trans        &trans         &trans                         &trans        &trans                                                     &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
